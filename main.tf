@@ -20,7 +20,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "tf_s3_cicd" {
-  bucket = "chandra-cpclass-charlie-tf-cicd-v2"  # Replace with your desired bucket name
+  bucket = "chandra-cpclass-charlie-tf-cicd-send-to-prod"  # Replace with your desired bucket name
   tags = {
     "name" = "tfcicd-bucket",
     "team" = "devops"
